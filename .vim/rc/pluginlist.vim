@@ -20,6 +20,7 @@ Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': './install --bin'  }
 Plug 'junegunn/fzf.vim'
+Plug 'osyo-manga/vim-anzu'
 
 Plug 'vimwiki/vimwiki'
 
