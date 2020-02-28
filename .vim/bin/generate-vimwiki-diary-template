@@ -4,6 +4,8 @@ import datetime
 
 template = """# {date}
 
+## Events
+
 ## Todo
 
 ## Notes"""
