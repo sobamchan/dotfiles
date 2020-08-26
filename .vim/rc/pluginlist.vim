@@ -1,7 +1,11 @@
-if empty(glob('~/.vim/autoload/plug.vim'))
-    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-      \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+" if empty(glob('~/.vim/autoload/plug.vim'))
+"     silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+"       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+" endif
+
+if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+    !curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 call plug#begin('~/.vim/plugged')
@@ -16,12 +20,35 @@ Plug 'airblade/vim-gitgutter'
 Plug 'nvie/vim-flake8'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
-Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': './install --bin'  }
 Plug 'junegunn/fzf.vim'
 Plug 'osyo-manga/vim-anzu'
 
-Plug 'vimwiki/vimwiki'
+" Plug 'vimwiki/vimwiki'
+
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'  }
+
+" Plug 'prabirshrestha/async.vim'
+" Plug 'prabirshrestha/vim-lsp'
+" Plug 'prabirshrestha/asyncomplete.vim'
+" Plug 'prabirshrestha/asyncomplete-lsp.vim'
+" Plug 'natebosch/vim-lsc'
+
+Plug 'posva/vim-vue'
+Plug 'mattn/emmet-vim'
+Plug 'preservim/nerdcommenter'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Track the engine.
+Plug 'SirVer/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
+
+Plug 'sebdah/vim-delve'
+
+Plug 'rbgrouleff/bclose.vim'
+Plug 'iberianpig/tig-explorer.vim'
 
 call plug#end()

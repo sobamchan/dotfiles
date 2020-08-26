@@ -56,3 +56,4 @@ command echo -e "\e[1;36m Install completed!!!! \e[m"
 # Install others
 source $current_dir/lib/dotinstaller/install-fzf.sh
 source $current_dir/lib/dotinstaller/install-powerline-fonts.sh
+source $current_dir/lib/dotinstaller/symlink.sh

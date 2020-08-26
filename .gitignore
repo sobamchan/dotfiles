@@ -1,0 +1,5 @@
+.vim/plugged
+.vim/autoload
+.vim/backup
+.vim/undo
+.zsh/.zsh_history

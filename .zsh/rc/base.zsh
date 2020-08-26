@@ -20,7 +20,7 @@ KEYTIMEOUT=1
 # default  : ls /usr/local → ls /usr/ → ls /usr → ls /
 # この設定 : ls /usr/local → ls /usr/ → ls /
 WORDCHARS='*?_-.[]~&;!#$%^(){}<>|'
-
+ 
 # zsh関数のサーチパス
 fpath=($HOME/.zfunc(N-/) $ZHOMEDIR/zfunc(N-/) $ZHOMEDIR/completion(N-/) $fpath)
 
@@ -49,11 +49,15 @@ export DISABLE_DEVICONS=false
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+# 
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
+# 
+# # fzf
+# source $HOME/.fzf.zsh
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 eval "$(pyenv virtualenv-init -)"
-
-# fzf
-source $HOME/.fzf.zsh

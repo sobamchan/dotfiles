@@ -41,3 +41,6 @@ source "$ZRCDIR/pluginlist.zsh"
 #--------------------------------------------------------------#
 
 source "$ZRCDIR/function.zsh"
+
+# added by travis gem
+[ -f /Users/sobamchan/.travis/travis.sh ] && source /Users/sobamchan/.travis/travis.sh
