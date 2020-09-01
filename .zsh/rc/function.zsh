@@ -11,3 +11,7 @@ py() {
         --InteractiveShellApp.exec_lines="['%autoreload 2']" \
         --no-banner|| command python "$@"
 }
+
+wiki() {
+    nvim /Users/sobamchan/PROJECT/WEB/sobamchan.github.io/_wiki/$(date "+%Y-%m-%d")-"$1".md
+}
