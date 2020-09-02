@@ -20,3 +20,5 @@ eval "$(rbenv init -)"
 
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
