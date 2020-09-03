@@ -60,3 +60,7 @@ let g:NERDSpaceDelims = 1
 
 " tig
 nmap <silent> ;t :TigOpenProjectRootDir<CR>
+
+" markdown
+let g:preview_markdown_parser='glow'
+let g:preview_markdown_vertical = 1

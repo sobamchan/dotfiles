@@ -51,4 +51,6 @@ Plug 'sebdah/vim-delve'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'iberianpig/tig-explorer.vim'
 
+Plug 'skanehira/preview-markdown.vim'
+
 call plug#end()
