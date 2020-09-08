@@ -15,9 +15,9 @@ Plug 'easymotion/vim-easymotion'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'simeji/winresizer'
-Plug 'davidhalter/jedi-vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'nvie/vim-flake8'
+" Plug 'davidhalter/jedi-vim'
+" Plug 'nvie/vim-flake8'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'jiangmiao/auto-pairs'
@@ -50,5 +50,7 @@ Plug 'sebdah/vim-delve'
 
 Plug 'rbgrouleff/bclose.vim'
 Plug 'iberianpig/tig-explorer.vim'
+
+Plug 'skanehira/preview-markdown.vim'
 
 call plug#end()
