@@ -50,6 +50,7 @@ Plug 'sebdah/vim-delve'
 
 Plug 'rbgrouleff/bclose.vim'
 Plug 'iberianpig/tig-explorer.vim'
+Plug 'tpope/vim-fugitive'
 
 Plug 'skanehira/preview-markdown.vim'
 

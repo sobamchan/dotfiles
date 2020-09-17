@@ -23,6 +23,7 @@ let g:vimwiki_global_ext = 0
 au BufNewFile ~/Dropbox/Sync_on_Mac/vimwiki/diary/*.md :silent 0r !~/.vim/bin/generate-vimwiki-diary-template '%'
 
 " davidhalter/jedi-vim
+" let g:jedi#completions_enabled = 0
 " let g:jedi#goto_stubs_command = "<Nop>"
 " let g:jedi#smart_auto_mappings = 1
 
