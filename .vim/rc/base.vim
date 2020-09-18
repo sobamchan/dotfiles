@@ -47,3 +47,5 @@ autocmd FileType htmldjango setlocal tabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2
 autocmd FileType html setlocal tabstop=2
 autocmd FileType html setlocal shiftwidth=2
+autocmd FileType yaml setlocal tabstop=2
+autocmd FileType yaml setlocal shiftwidth=2
