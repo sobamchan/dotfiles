@@ -65,3 +65,7 @@ nmap <silent> ;t :TigOpenProjectRootDir<CR>
 " markdown
 let g:preview_markdown_parser='glow'
 let g:preview_markdown_vertical = 1
+
+" For python
+autocmd BufWritePre *.py execute ':Black'
+autocmd BufWritePre *.py execute ':Isort'

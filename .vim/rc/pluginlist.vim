@@ -54,4 +54,8 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'skanehira/preview-markdown.vim'
 
+" For python
+Plug 'fisadev/vim-isort'
+Plug 'psf/black', { 'branch': 'stable' }
+
 call plug#end()
