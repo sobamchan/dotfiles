@@ -54,4 +54,7 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'skanehira/preview-markdown.vim'
 
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+
 call plug#end()
