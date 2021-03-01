@@ -57,4 +57,8 @@ Plug 'skanehira/preview-markdown.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 
+" For python
+Plug 'fisadev/vim-isort'
+Plug 'psf/black', { 'branch': 'stable' }
+
 call plug#end()
