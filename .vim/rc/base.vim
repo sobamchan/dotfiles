@@ -38,11 +38,14 @@ set nomodeline
 
 set clipboard+=unnamed
 
+colorscheme iceberg
+
 
 autocmd FileType vue setlocal tabstop=2
 autocmd FileType vue setlocal shiftwidth=2
 autocmd FileType javascript setlocal tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2
+autocmd FileType typescript setlocal shiftwidth=2
 autocmd FileType htmldjango setlocal tabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2
 autocmd FileType html setlocal tabstop=2

@@ -54,8 +54,14 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'skanehira/preview-markdown.vim'
 
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+
 " For python
 Plug 'fisadev/vim-isort'
 Plug 'psf/black', { 'branch': 'stable' }
+
+" colorscheme
+Plug 'cocopon/iceberg.vim', {'do': 'cp colors/* ~/.config/nvim/colors/'}
 
 call plug#end()
