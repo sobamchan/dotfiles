@@ -38,6 +38,8 @@ set nomodeline
 
 set clipboard+=unnamed
 
+colorscheme iceberg
+
 
 autocmd FileType vue setlocal tabstop=2
 autocmd FileType vue setlocal shiftwidth=2

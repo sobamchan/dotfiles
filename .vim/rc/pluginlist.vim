@@ -61,4 +61,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'fisadev/vim-isort'
 Plug 'psf/black', { 'branch': 'stable' }
 
+" colorscheme
+Plug 'cocopon/iceberg.vim', {'do': 'cp colors/* ~/.config/nvim/colors/'}
+
 call plug#end()
