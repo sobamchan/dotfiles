@@ -1,9 +1,3 @@
-" if empty(glob('~/.vim/autoload/plug.vim'))
-"     silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-"       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-" endif
-
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
     !curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
@@ -16,8 +10,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'simeji/winresizer'
 Plug 'airblade/vim-gitgutter'
-" Plug 'davidhalter/jedi-vim'
-" Plug 'nvie/vim-flake8'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'jiangmiao/auto-pairs'
@@ -25,21 +17,11 @@ Plug 'junegunn/fzf', { 'do': './install --bin'  }
 Plug 'junegunn/fzf.vim'
 Plug 'osyo-manga/vim-anzu'
 
-" Plug 'vimwiki/vimwiki'
-
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'  }
-
-" Plug 'prabirshrestha/async.vim'
-" Plug 'prabirshrestha/vim-lsp'
-" Plug 'prabirshrestha/asyncomplete.vim'
-" Plug 'prabirshrestha/asyncomplete-lsp.vim'
-" Plug 'natebosch/vim-lsc'
 
 Plug 'posva/vim-vue'
 Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdcommenter'
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Track the engine.
 Plug 'SirVer/ultisnips'
