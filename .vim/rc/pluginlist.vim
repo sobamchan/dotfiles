@@ -39,7 +39,12 @@ Plug 'skanehira/preview-markdown.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 
+" completion
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 " For python
+Plug 'davidhalter/jedi-vim'
+Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'fisadev/vim-isort'
 Plug 'psf/black', { 'branch': 'stable' }
 

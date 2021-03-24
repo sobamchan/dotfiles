@@ -37,6 +37,16 @@ nmap <silent> ;t :TigOpenProjectRootDir<CR>
 let g:preview_markdown_parser='glow'
 let g:preview_markdown_vertical = 1
 
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
+
+" jedi-vim
+" completion with deoplete
+let g:jedi#auto_vim_configuration = 0
+let g:jedi#smart_auto_mappings = 0
+let g:jedi#completions_enabled = 0
+let g:jedi#goto_stubs_command = ""
+
 " For python
 autocmd BufWritePre *.py execute ':Black'
 autocmd BufWritePre *.py execute ':Isort'
