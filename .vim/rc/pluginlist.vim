@@ -50,5 +50,7 @@ Plug 'psf/black', { 'branch': 'stable' }
 
 " colorscheme
 Plug 'cocopon/iceberg.vim', {'do': 'cp colors/* ~/.config/nvim/colors/'}
+Plug 'sainnhe/everforest'
+
 
 call plug#end()

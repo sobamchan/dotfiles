@@ -38,7 +38,7 @@ set nomodeline
 
 set clipboard+=unnamed
 
-colorscheme iceberg
+colorscheme everforest
 
 
 autocmd FileType vue setlocal tabstop=2
