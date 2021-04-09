@@ -9,8 +9,9 @@ function! SourceSafe(file)
 endfunction
 
 
-source ~/.vim/rc/base.vim
-
 source ~/.vim/rc/pluginlist.vim
 source ~/.vim/rc/pluginconf.vim
 source ~/.vim/rc/map.vim
+
+
+source ~/.vim/rc/base.vim
