@@ -14,3 +14,6 @@ nnoremap <Leader>l :tabnext<CR>
 nnoremap <Leader>bn :bn<CR>
 nnoremap <Leader>bp :bp<CR>
 nnoremap <Leader>bd :bd<CR>
+
+" esc for terminal mode
+tnoremap <C-j> <C-\><C-n>
