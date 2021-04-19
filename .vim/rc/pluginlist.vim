@@ -47,6 +47,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'fisadev/vim-isort'
 Plug 'psf/black', { 'branch': 'stable' }
+Plug 'dense-analysis/ale'
 
 " colorscheme
 Plug 'cocopon/iceberg.vim', {'do': 'cp colors/* ~/.config/nvim/colors/'}

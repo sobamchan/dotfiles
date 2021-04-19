@@ -50,3 +50,12 @@ let g:jedi#goto_stubs_command = ""
 " For python
 autocmd BufWritePre *.py execute ':Black'
 autocmd BufWritePre *.py execute ':Isort'
+
+" ALE
+" let g:ale_fix_on_save = 1
+let g:ale_completion_enabled = 0
+let g:ale_completion_autoimport = 1
+" let g:ale_linters_explicit = 1
+" let b:ale_linters = ['flake8']
+let g:ale_python_mypy_options = '--ignore-missing-imports'
+let g:ale_disable_lsp = 1
