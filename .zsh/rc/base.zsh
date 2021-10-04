@@ -63,3 +63,7 @@ fi
 eval "$(pyenv virtualenv-init -)"
 
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
+
+
+export PATH="/Users/sobamchan/.local/bin:$PATH"
+eval "$(zoxide init zsh)"
