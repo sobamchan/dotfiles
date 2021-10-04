@@ -4,3 +4,5 @@
 .vim/undo
 .zsh/.zsh_history
 .vim/black
+.tmux/plugins
+.tmux/resurrect/*
